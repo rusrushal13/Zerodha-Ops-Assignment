@@ -1,0 +1,5 @@
+demo.bin
+.vscode
+.vagrant
+*.log
+main
