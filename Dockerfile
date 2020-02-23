@@ -4,11 +4,9 @@ LABEL maintainer="Rushal Verma <rusrushal13@gmail.com>"
 
 WORKDIR /app
 
-COPY go.mod go.sum ./
+COPY . .
 
 RUN go mod download
-
-COPY . .
 
 ENV DEMO_APP_ADDR=:8000
 
